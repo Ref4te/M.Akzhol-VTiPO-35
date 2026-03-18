@@ -64,7 +64,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/note.sol": "note"
+			"contracts/Note1.sol": "note"
 		},
 		"evmVersion": "osaka",
 		"libraries": {},
@@ -78,7 +78,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/note.sol": {
+		"contracts/Note1.sol": {
 			"keccak256": "0x4855dacb8407074701b0dbf267fe1735d462bbb107a1b23c226c0a4a7d8f6d74",
 			"license": "MIT",
 			"urls": [
