@@ -55,6 +55,11 @@
 			},
 			{
 				"inputs": [],
+				"name": "ReentrancyGuardReentrantCall",
+				"type": "error"
+			},
+			{
+				"inputs": [],
 				"name": "ZeroAddress",
 				"type": "error"
 			},
@@ -69,6 +74,80 @@
 					}
 				],
 				"name": "CoordinatorSet",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "uint256",
+						"name": "requestId",
+						"type": "uint256"
+					},
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "player",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint8",
+						"name": "playerChoice",
+						"type": "uint8"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint8",
+						"name": "casinoChoice",
+						"type": "uint8"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "result",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "payout",
+						"type": "uint256"
+					}
+				],
+				"name": "GameFinished",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "uint256",
+						"name": "requestId",
+						"type": "uint256"
+					},
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "player",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint8",
+						"name": "playerChoice",
+						"type": "uint8"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "bet",
+						"type": "uint256"
+					}
+				],
+				"name": "GameRequested",
 				"type": "event"
 			},
 			{
@@ -373,6 +452,13 @@
 			}
 		],
 		"devdoc": {
+			"errors": {
+				"ReentrancyGuardReentrantCall()": [
+					{
+						"details": "Unauthorized reentrant call."
+					}
+				]
+			},
 			"kind": "dev",
 			"methods": {},
 			"version": 1
@@ -398,7 +484,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/RockScissorPaper.sol": "RockScissorPaper"
+			"contracts/RockScissorPaper2.sol": "RockScissorPaper"
 		},
 		"evmVersion": "osaka",
 		"libraries": {},
@@ -476,12 +562,28 @@
 				"dweb:/ipfs/QmfKLv5z7KzxNKCZfH9wC9b4ukkXqz8w8HEqmJcYAvdREH"
 			]
 		},
-		"contracts/RockScissorPaper.sol": {
-			"keccak256": "0xe740b1b5d83db247a451371e20fa8d62179fa4e70f0b610d56471574b7db28f3",
+		"@openzeppelin/contracts/utils/ReentrancyGuard.sol": {
+			"keccak256": "0xa516cbf1c7d15d3517c2d668601ce016c54395bf5171918a14e2686977465f53",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://1dedb368bbcf5514b2e85e1c82f847227e3fd107fd3e21f95b312e47079ef4cc",
-				"dweb:/ipfs/QmUAX4hiAbEsRXbh8axN452Ho7uaJPWk9Ddc7Z2ZXCSEvd"
+				"bzz-raw://1e1d079e8edfb58efd23a311e315a4807b01b5d1cf153f8fa2d0608b9dec3e99",
+				"dweb:/ipfs/QmTBExeX2SDTkn5xbk5ssbYSx7VqRp9H4Ux1CY4uQM4b9N"
+			]
+		},
+		"@openzeppelin/contracts/utils/StorageSlot.sol": {
+			"keccak256": "0xcf74f855663ce2ae00ed8352666b7935f6cddea2932fdf2c3ecd30a9b1cd0e97",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9f660b1f351b757dfe01438e59888f31f33ded3afcf5cb5b0d9bf9aa6f320a8b",
+				"dweb:/ipfs/QmarDJ5hZEgBtCmmrVzEZWjub9769eD686jmzb2XpSU1cM"
+			]
+		},
+		"contracts/RockScissorPaper2.sol": {
+			"keccak256": "0x3b07e004c33947af4b97f62753d95d45e8d3b4fe7e7f42b39bdd8d721857992c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://46bf10db9ec560a83dd82f620f4274abb760bbcd9c7233c9124da6142bfd8e9b",
+				"dweb:/ipfs/QmQ3pKQ3GXzUQgHesYKvwPZMRB1iftjoVpJ9qBeQHVmMbZ"
 			]
 		}
 	},

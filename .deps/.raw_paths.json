@@ -1,0 +1,13 @@
+{
+  "@chainlink/contracts@1.5.0/src/v0.8/vrf/dev/interfaces/IVRFCoordinatorV2Plus.sol": ".deps/npm/@chainlink/contracts@1.5.0/src/v0.8/vrf/dev/interfaces/IVRFCoordinatorV2Plus.sol",
+  "@chainlink/contracts@1.5.0/src/v0.8/vrf/dev/libraries/VRFV2PlusClient.sol": ".deps/npm/@chainlink/contracts@1.5.0/src/v0.8/vrf/dev/libraries/VRFV2PlusClient.sol",
+  "@chainlink/contracts@1.5.0/src/v0.8/vrf/dev/interfaces/IVRFSubscriptionV2Plus.sol": ".deps/npm/@chainlink/contracts@1.5.0/src/v0.8/vrf/dev/interfaces/IVRFSubscriptionV2Plus.sol",
+  "@chainlink/contracts@1.5.0/src/v0.8/vrf/dev/VRFConsumerBaseV2Plus.sol": ".deps/npm/@chainlink/contracts@1.5.0/src/v0.8/vrf/dev/VRFConsumerBaseV2Plus.sol",
+  "@chainlink/contracts@1.5.0/src/v0.8/shared/access/ConfirmedOwner.sol": ".deps/npm/@chainlink/contracts@1.5.0/src/v0.8/shared/access/ConfirmedOwner.sol",
+  "@chainlink/contracts@1.5.0/src/v0.8/shared/access/ConfirmedOwnerWithProposal.sol": ".deps/npm/@chainlink/contracts@1.5.0/src/v0.8/shared/access/ConfirmedOwnerWithProposal.sol",
+  "@chainlink/contracts@1.5.0/src/v0.8/shared/interfaces/IOwnable.sol": ".deps/npm/@chainlink/contracts@1.5.0/src/v0.8/shared/interfaces/IOwnable.sol",
+  "@chainlink/contracts@1.5.0/src/v0.8/vrf/dev/interfaces/IVRFMigratableConsumerV2Plus.sol": ".deps/npm/@chainlink/contracts@1.5.0/src/v0.8/vrf/dev/interfaces/IVRFMigratableConsumerV2Plus.sol",
+  "@openzeppelin/contracts@5.6.1/security/ReentrancyGuard.sol": ".deps/npm/@openzeppelin/contracts@5.6.1/security/ReentrancyGuard.sol",
+  "@openzeppelin/contracts@5.6.1/utils/ReentrancyGuard.sol": ".deps/npm/@openzeppelin/contracts@5.6.1/utils/ReentrancyGuard.sol",
+  "@openzeppelin/contracts@5.6.1/utils/StorageSlot.sol": ".deps/npm/@openzeppelin/contracts@5.6.1/utils/StorageSlot.sol"
+}
