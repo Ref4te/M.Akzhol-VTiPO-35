@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.31+commit.fd3a2265"
+		"version": "0.8.20+commit.a1b79de6"
 	},
 	"language": "Solidity",
 	"output": {
@@ -424,7 +424,7 @@
 		"compilationTarget": {
 			"contracts/Tokenlab15.sol": "Token"
 		},
-		"evmVersion": "osaka",
+		"evmVersion": "shanghai",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -477,11 +477,11 @@
 			]
 		},
 		"contracts/Tokenlab15.sol": {
-			"keccak256": "0x7623eaf6a1e10b46675a61cfde8a7cf08553e03a616e92160f2a4195d1971f79",
+			"keccak256": "0x55301ca0911d53aac08b842598040a05f2edf58e14b5f3adcf829779416bd19a",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://aac83fb6bcdbf446d9556c703ee840e5b66af0fed1fe14d375b13df5dbcfa708",
-				"dweb:/ipfs/QmSWghmFZhUj6T8LdLqrbChVy8ULUnTEsmXsRFZLJSW4TA"
+				"bzz-raw://ceb2dbd7bb43ec65bc7b2f47218c7a15bd094b28940f44740dbfa8d7386caf23",
+				"dweb:/ipfs/QmYhxTV29DHiZxHXjHLrYC7ApZ6vsQeAWnC3pV5KJj5u6i"
 			]
 		}
 	},

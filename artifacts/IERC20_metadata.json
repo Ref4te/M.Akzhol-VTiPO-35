@@ -72,7 +72,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Staking.sol": "IERC20"
+			"contracts/Stakinglab15.sol": "IERC20"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -86,12 +86,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Staking.sol": {
-			"keccak256": "0x2021505fb9b6f10a3756eb440d3393b871faa07fb509a5ebc0b0aa47e97cb553",
+		"contracts/Stakinglab15.sol": {
+			"keccak256": "0x15794d42107b75f35db93fd0cf26fad13901f0b892ac429ccbf33fcc66e282a8",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://abf8cf4d6414457b99ed2707bff8fa30eddb1dc5b5dd9e463f9bee3de97d5a17",
-				"dweb:/ipfs/QmXyJHLHuBvdUmNYpZN1GTdotAkdx1k2ZT1pcFRZwS8er9"
+				"bzz-raw://bafdec3a7ff9d63278db9feed0ad78e59232ca87ed4801461c8d266415d6bf1d",
+				"dweb:/ipfs/QmY3z7HQV4YHfUikQ5fFt6k3hu7XkupGUwU4fjWXoARRT7"
 			]
 		}
 	},
