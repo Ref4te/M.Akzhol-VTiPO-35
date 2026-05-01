@@ -422,7 +422,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/MyToken.sol": "Token"
+			"contracts/Tokenlab15.sol": "Token"
 		},
 		"evmVersion": "osaka",
 		"libraries": {},
@@ -476,12 +476,12 @@
 				"dweb:/ipfs/Qmax9WHBnVsZP46ZxEMNRQpLQnrdE4dK8LehML1Py8FowF"
 			]
 		},
-		"contracts/MyToken.sol": {
-			"keccak256": "0x6979e6f635142b9a799b8b68aa9128ad7d653c1ef384acc64b51d99cf03ecd2f",
+		"contracts/Tokenlab15.sol": {
+			"keccak256": "0x7623eaf6a1e10b46675a61cfde8a7cf08553e03a616e92160f2a4195d1971f79",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://bf25f788ee9dd39fe9ff95d6816e6f39cc4f3c6d5c3099d578bb63640dbc60ef",
-				"dweb:/ipfs/Qmd3VH2R43hGELUVY1tEuhTnmfzW5L3ERkTR5Yf33TiwUf"
+				"bzz-raw://aac83fb6bcdbf446d9556c703ee840e5b66af0fed1fe14d375b13df5dbcfa708",
+				"dweb:/ipfs/QmSWghmFZhUj6T8LdLqrbChVy8ULUnTEsmXsRFZLJSW4TA"
 			]
 		}
 	},
